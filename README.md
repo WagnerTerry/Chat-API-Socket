@@ -1,5 +1,5 @@
 # Servidor socket.io
-- Backend para funcionalidade de chat usando socket.io, desafio digitro
+- Backend para funcionalidade de chat usando socket.io
 
 ## Dependencias
 - npm i typescript @types/node -D
