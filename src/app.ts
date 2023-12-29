@@ -25,7 +25,9 @@ class App {
             })
 
             socket.on("message", message => {
-                this.socketIo.emit('message', message)
+                this.socketIo.emit('message', message) // Envia pra todo mundo, inclusive o emissor
+                //socket.broadcast.emit('message', message); Envia pra todo mundo, exceto o emissor
+                
                 console.log("mensagem", message.body)
             })
         })
